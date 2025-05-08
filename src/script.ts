@@ -94,10 +94,8 @@ interface Product {
         } else {
           resolve(n * n);
         }
-      }, 10);
+      }, 1000);
     });
   }
   
-  squareAsync(4).then(console.log);         // Output: 16
-  squareAsync(-3).catch(console.error);     // Output: Error: Negative number not allowed
   
